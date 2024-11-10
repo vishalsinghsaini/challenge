@@ -5,10 +5,8 @@ import { Provider } from "react-redux";
 import { ThemeProps } from './src/theme/theme';
 import { useAppTheme } from './src/app-hooks/use-app-theme';
 import store from './src/store/store';
-// import Controls from './src/components/Controls';
 import OrderBook from './src/components/orderBook';
 import Controls from './src/components/controls';
-// import OrderBook from './src/components/OrderBook';
 
 const App = () => {
     const { theme } = useAppTheme();
