@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "challenge",
-    "slug": "challenge",
+    "name": "challenge2",
+    "slug": "challenge2",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -12,8 +12,10 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "entryPoint": "./App",
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.vpmab26.challenge2"
     },
     "android": {
       "adaptiveIcon": {
@@ -31,6 +33,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "a1509927-81ae-40b4-a34c-a40d3cc65204"
+      }
     }
   }
 }
